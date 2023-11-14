@@ -147,7 +147,7 @@ Note: For AI consumed as a service, it is recommended to implement:
 ##Environmental, Social, and Corporate Governance (ESG):
 - The models used should conform to your ESG criteria.
 
-##IT Security AI attack vectors and vulnerabilities you must protect against:**
+##IT Security AI attack vectors and vulnerabilities you must protect against:
 - Prompt Injection
 - Poisoning of data training sets for decision-making hijacking
 - Poisoning of data training sets for bias manipulation
@@ -163,7 +163,7 @@ Note: For AI consumed as a service, it is recommended to implement:
 - AI Policy Template: [AI Enterprise Policy](AI-Corporate-Policy.md)
 
 
-##Transition to a Safe AI-Enabled Enterprise:**
+##Transition to a Safe AI-Enabled Enterprise:
 - Your CTO, CIO, or Chief Scientist should define an AI Strategy in collaboration with the Chief Risk Officer, the Data Protection Officer and the Corporate Audit Services.
 - Helper: [AI Strategy Tool](https://amase.io/amase-ai-strategy-tool/ai_strategy_tool.html)
 - This Strategy should be safeguarded and augmented by this Safe AI Guideline framework, tailored for your enterprise.

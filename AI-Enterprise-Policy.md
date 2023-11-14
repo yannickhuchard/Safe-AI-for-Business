@@ -1,5 +1,5 @@
 # Safe AI Enterprise Policy
-<small>**Version 1.0.0 - 23 August, 2023**</small>
+<small>Version 1.0.0 - 23 August, 2023</small>
 
 ### Purpose
 This policy aims to establish a comprehensive framework for the safe, ethical, and responsible use of Artificial Intelligence (AI) technologies within [Update Company Name]. These technologies, such as ChatGPT, Dall-E, Midjourney, Bing Conversation, Bard, and Claude, generate or transform content using human knowledge across various media. This Policy is designed to minimize risks while enabling innovation through AI.
