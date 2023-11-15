@@ -4,10 +4,8 @@
 # <div align="center">Safe AI Guidelines for Business</div>
 Safe AI Guidelines for Business – an open-source initiative designed to empower businesses and nonprofits to adopt AI to innovate responsibly. The goal is to kickstart the enterprise journey towards AI, with resources built to share, adapt, and thrive.
 
-&nbsp;
 
-
-##Introduction
+## Introduction
 
 The purpose of this document is to provide a generic framework for the usage of AI technologies, such as ChatGPT, Claude, Dall-E, Midjourney, Bing, Bard, D-ID, which either generate content or transform it using human knowledge and identities throughout Text, Images, Videos, Audio, and other forms of intellectual property.
 
@@ -21,7 +19,8 @@ We seek benefits that are not only for your enterprise but also for humankind, w
 - Establishing a tacit agreement by publicly announcing the conscious and responsible usage of AI.
 - Making this open source with open contribution, which gives the opportunity to make these guidelines better over time and also provide the means to make it available in several languages.
 
-##Context:
+
+## Context
 - ChatGPT uses reinforcement learning, which is a feedback loop with user ratings and your content. Your content may be used for training the next GPT model.
 - ChatGPT is free. When it is free, you are the product. However, it is a fair trade: attention, interactions, and feedback for free intelligence and digital skills.
 - Be aware that these technologies use human knowledge as a starting point, but they may also be fed with AI-generated knowledge to kickstart the creation of a new model, including for research purposes. Hence, your information may already be mixed in another dataset, but also the "truth" or "factual knowledge" might have been altered.
@@ -33,7 +32,7 @@ We seek benefits that are not only for your enterprise but also for humankind, w
 - There are other regulations you must consider, such as GDPR in the Eurozone and the NIS directive to guarantee the protection of your network.
 - The following provides foundational guidelines, but you must assess the risks pertaining to your industry and regulatory scope.
 
-##Consider:
+## Considerations
 - Human-to-human interaction
 - Human-to-machine interaction
 - Human-to-fleet interaction
@@ -42,15 +41,16 @@ We seek benefits that are not only for your enterprise but also for humankind, w
 - Machine automation and autonomy
 - In particular, consider those more susceptible to influence, such as children and the elderly.
 
-##AI Models and Technologies
+
+## AI Models and Technologies
 (Guideline: Adjust the Allow/Deny rules according to your business strategy, your corporate policies and regulatory scope)
 
-####Allowed AI Systems and Their Usage:
+#### Allowed AI Systems and Their Usage:
 
 | Allow                                         | Usage                                                    |
 |-----------------------------------------------|----------------------------------------------------------|
 | ChatGPT                                       | Review, generation, feedback, complementation, transformation |
-| GPT API                                       |                                                          |
+| GPT Platform                                       |                                                          |
 | Claude.ai                                     | Review, generation, feedback, complementation, transformation                                                         |
 | Dall-E 2                                      |                                                          |
 | Adobe Firefly                                 | Content Marketing (internal only)                                                         |
@@ -65,7 +65,7 @@ We seek benefits that are not only for your enterprise but also for humankind, w
 | Etc. Add your company's approved AI systems to the list. | |
 
 
-####Denied AI Systems and Their Usage:
+#### Denied AI Systems and Their Usage:
 
 | Deny                                                     | Usage |
 |----------------------------------------------------------|-------|
@@ -80,10 +80,10 @@ Note: For AI consumed as a service, it is recommended to implement:
 - Default use of enterprise licenses.
 - User license-based allocation for auditability and analytics.
 
-##Guidelines DATA:
+## Guidelines for Data
 - Do not add customer data to external Generative AI systems.
 - Do not add employee data without explicit consent and the legal right to process them.
-- Utilize "privacy mode" in ChatGPT or any similar functions that ensure user privacy and data privacy.
+- Utilize "privacy mode" in ChatGPT (Foundational LLM) or any similar functions that ensure user privacy and data privacy.
 - In general, avoid using Personal Information.
 - Do not add content or data subject to proprietary intellectual property (yours or someone else's).
 - Avoid injecting generated data into real data if ultimately the data mirrors reality. This act is considered tampering.
@@ -91,17 +91,27 @@ Note: For AI consumed as a service, it is recommended to implement:
 - If generated data is mixed with real data that leads to decision-making, explicitly specify each part of the process where AI is used and note that the outcome contains elements of generated AI.
 - Consider using watermarks for AI-generated content if you believe it is your duty to inform or educate your audience. This decision should be guided by your ethics policies and the context in which AI is used to convey your message or advertisement/promotional content.
 
-##Trust:
+## Expanding the focus on biometrics Personally Identifiable Information (PII)
+- Given that AI has the capability to record and generate an individual's likeness, it is crucial to extends the attention to biometrics PII to ensure comprehensive protection.
+- Vocal signature: This includes unique vocal characteristics such as pitch, pace, intonation, accent, and speech patterns.
+- Photographic Likeness: Any visual representation that captures an individual’s facial features and/or body shape.
+- Facial signature: This refers to the specific measurements and nodal points of a person’s face used in biometric identification.
+- Fingerprints: The distinct patterns found on the tips of an individual's fingers.
+- Palm patterns: The unique lines and features of a person’s palm used for identification.
+- Iris patterns: This is defined by the uniqueness of the ring pattern and color.
+
+
+## Trust
 - Engage in brief interactions with a human when dealing with the outcomes of AI-generated content, assets, and code.
 - Always test AI-generated code.
 - Avoid relying exclusively on AI for processes and mechanisms at strategic decision points (e.g., hiring, firing, acquisitions, technology investments, human team management, etc.).
 - Refrain from data washing, where data would have been unethically or illegally collected, then used to create generative AI models that produce an entirely new dataset from the knowledge contained in the model.
 
-##Legal and Compliance:
+## Legal and Compliance
 - If your customer data is processed by ChatGPT or another service, the general terms and conditions and the data privacy policy must explicitly state the usage of these services.
 - Document the processes involving your AI systems so regulatory authorities can verify that your model creation and exploitation are performed in a safe, fair, and responsible manner, providing ethical assurance to your consumers.
 
-##Governance:
+## Governance
 - Utilize these safe AI Guidelines to define the scope of usage, engineering, operations, and supervision in your company.
 - Assess the introduction of a system powered by AI properly:
   - Determine the type of AI capabilities contained in the system: generative, discriminative, predictive, decision-making, transformative.
@@ -114,12 +124,12 @@ Note: For AI consumed as a service, it is recommended to implement:
 - Verify that Enterprise Architecture ensures the Enterprise Architecture repository indexes these systems or that there are dedicated enterprise architecture views.
 - Maintain control over new model versions. It is expected that each new model version improves upon the previous one. Nonetheless, the Enterprise must remain in control and establish mechanisms for controlling the risks inherent to the new model (anti-regression, exaggeration, etc.).
 
-##Security:
+## Security
 - Never write down passwords.
 - Use a proxy with a data leakage protection system.
 - Do not use any AI model as a Service system without encrypted connectivity (HTTPS, FTPS, SSH, etc.).
 
-##Risk:
+## Risk
 - Mitigate the risk of losing personalization.
 - Prevent the production of content without human supervision.
 - Avoid producing content without human verification.
@@ -132,7 +142,7 @@ Note: For AI consumed as a service, it is recommended to implement:
 - Verify that AI-driven decisions can be verified.
 - Reduce the risk of content being used by an employee to harm or bully the company or an employee/contractor.
 
-##Ethics:
+## Ethics
 - Prohibit Not safe for work (NSFW) prompts.
 - Do not use AI external to your company to probe or analyze the weaknesses of your internal systems unless you are a professional ethical hacker explicitly missioned to do so.
 - Do not use the image of someone (except yourself) as input for generating an alternate situation without explicit consent.
@@ -144,10 +154,11 @@ Note: For AI consumed as a service, it is recommended to implement:
 - Avoid using content that may be close to/perceived as religious content.
 - Do not use AI for any form of social engineering, psyops, or behavioral diagnostics upon an individual unless it is with explicit and verifiable intent to help the individual and your job function or relationship with the person provides a legitimate purpose.
 
-##Environmental, Social, and Corporate Governance (ESG):
+## Environmental, Social, and Corporate Governance (ESG)
 - The models used should conform to your ESG criteria.
 
-##IT Security AI attack vectors and vulnerabilities you must protect against:
+
+## IT Security: AI attack vectors and vulnerabilities to guard against
 - Prompt Injection
 - Poisoning of data training sets for decision-making hijacking
 - Poisoning of data training sets for bias manipulation
@@ -158,12 +169,12 @@ Note: For AI consumed as a service, it is recommended to implement:
 - Credential leakage from Retrieval Augmentation Generation
 
 
-##AI Policy:
+## AI Policy
 - It is essential to articulate a clear and comprehensive AI policy that outlines your company's stance on the use of AI technologies. This policy should align with the ethical guidelines, legal requirements, and industry best practices, ensuring responsible and transparent AI use within your company's operations.
 - AI Policy Template: [AI Enterprise Policy](AI-Corporate-Policy.md)
 
 
-##Transition to a Safe AI-Enabled Enterprise:
+## Transition to a Safe AI-Enabled Enterprise
 - Your CTO, CIO, or Chief Scientist should define an AI Strategy in collaboration with the Chief Risk Officer, the Data Protection Officer and the Corporate Audit Services.
 - Helper: [AI Strategy Tool](https://amase.io/amase-ai-strategy-tool/ai_strategy_tool.html)
 - This Strategy should be safeguarded and augmented by this Safe AI Guideline framework, tailored for your enterprise.
@@ -178,7 +189,7 @@ Note: For AI consumed as a service, it is recommended to implement:
     - Examine the occurrences of AI augmentation.
     - Assess the impact from an ethical human resources point of view where AI systems cause total job displacement without offering an alternative role in the same company (for example, full-time procedure writers should be offered. Ultimately, we decide that AI should assist humans in collaborating in a human environment, with the acceptance that some tasks may be undertaken by AI/robots, instead of opting for a path where AI replaces the human).
 
-##Recommended Usage:
+## Recommended Usage
 - Data mapping
 - Data transformation
 - Test data generation
@@ -190,12 +201,12 @@ Note: For AI consumed as a service, it is recommended to implement:
 - Transcription
 - Sensorial detection (visual, auditory, infra-red, seismic, etc.)
 
-##Consequences:
+## Consequences
 - Organizations must have explicit rules, formalized in the Code of Conduct, and signed by each worker and student so that they are explicitly linked to the employment contract, service contract, and student.
 - The organizations should have an explicit paragraph in their IT charter defining the boundaries of AI usage.
 - The Data Office should have explicit AI guidelines and data usage guidelines in the perspective of AI models engineering and model usages.
 
-##Governing Regulations:
+## Governing Regulations
 - GDPR
 - Consider the AI regulatory frameworks pertaining to geographical regions like the EU AI Act or the US AI Strategy Framework.
 
@@ -206,8 +217,4 @@ Note: For AI consumed as a service, it is recommended to implement:
 - [Canada's AI and Data Act](https://ised-isde.canada.ca/site/innovation-better-canada/en/artificial-intelligence-and-data-act-aida-companion-document)
 - [AI Risks - Centre for AI Safety](https://www.safe.ai/ai-risk)
 - [OECD AI Principles](https://oecd.ai/en/ai-principles)
-
-
-
-
-
+- Navigating the Future with Generative AI: Part 1, Digital Augmentation - [article](https://yannickhuchard.com/navigating-the-future-with-generative-ai-part-1-digital-augmentation/) | [podcast](https://podcasters.spotify.com/pod/show/yannick-huchard/episodes/Navigating-the-Future-with-Generative-AI-Part-1--Digital-Augmentation-e22bn9c)
