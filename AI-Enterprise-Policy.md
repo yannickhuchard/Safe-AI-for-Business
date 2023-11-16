@@ -42,7 +42,7 @@ The following AI systems are approved for use after appropriate review:
 - Implement robust security protocols to protect against unauthorized data breaches and ensure AI interactions are conducted through secure channels.
 
 ### Legal and Compliance
-- Adhere to applicable laws and regulations, such as GDPR and the NIS directive, and ensure clear documentation of AI processes for regulatory review.
+- Adhere to applicable laws and regulations, such as GDPR, the NIS directive and DORA, and ensure clear documentation of AI processes for regulatory review.
 - Establish a governance framework to oversee AI usage, development, and risk management within the company.
 
 ### Ethics and Compliance

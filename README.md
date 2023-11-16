@@ -208,6 +208,8 @@ Note: For AI consumed as a service, it is recommended to implement:
 
 ## Governing Regulations
 - GDPR
+- NIS
+- DORA
 - Consider the AI regulatory frameworks pertaining to geographical regions like the EU AI Act or the US AI Strategy Framework.
 
 ### Useful links
